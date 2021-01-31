@@ -1,0 +1,29 @@
+{
+  "name": "@zimekk/components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zimekk/style.git",
+    "directory": "packages/components"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "typescript": "^4.1.2"
+  }
+}

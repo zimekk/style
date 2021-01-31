@@ -1,0 +1,44 @@
+{
+  "name": "mofed",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zimekk/style.git"
+  },
+  "author": "Marcin Makarewicz <zimekk@gmail.com>",
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": "^12"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "lint-staged": {},
+  "scripts": {
+    "clean": "rm -rf packages/*/public packages/*/lib",
+    "build": "yarn workspaces run build",
+    "serve": "yarn workspace @dev/app serve",
+    "start": "yarn workspace @dev/app start",
+    "commit": "git-cz",
+    "bootstrap": "npx lerna bootstrap",
+    "publish:ci": "lerna publish from-package --yes",
+    "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
+    "update": "yarn upgrade-interactive --latest"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.8",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "type-coverage": "^2.14.9"
+  }
+}
