@@ -25,7 +25,7 @@
     "start": "yarn workspace @dev/app start",
     "commit": "git-cz",
     "bootstrap": "npx lerna bootstrap",
-    "publish:ci": "lerna publish from-package --yes",
+    "publish:ci": "lerna publish from-package --no-private --yes",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --message 'chore(release): publish'",
     "update": "yarn upgrade-interactive --latest"
   },
