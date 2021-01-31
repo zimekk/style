@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.3.1](https://github.com/zimekk/style/compare/@dev/web@1.3.0...@dev/web@1.3.1) (2021-01-31)
+
+
+### Bug Fixes
+
+* **web:** change Button ([8e5f8d0](https://github.com/zimekk/style/commit/8e5f8d0cc54e5599cdcc2a3986bc59c3bcea4051))
+
+
+
+
+
 # [1.3.0](https://github.com/zimekk/style/compare/@dev/web@1.2.1...@dev/web@1.3.0) (2021-01-31)
 
 
