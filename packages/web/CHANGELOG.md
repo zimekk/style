@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.1](https://github.com/zimekk/style/compare/@dev/web@1.2.0...@dev/web@1.2.1) (2021-01-31)
+
+**Note:** Version bump only for package @dev/web
+
+
+
+
+
 # 1.2.0 (2021-01-31)
 
 

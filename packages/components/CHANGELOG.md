@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/zimekk/style/compare/@zimekk/components@0.2.0...@zimekk/components@0.2.1) (2021-01-31)
+
+
+### Bug Fixes
+
+* **components:** change color to blue ([3e8b0bc](https://github.com/zimekk/style/commit/3e8b0bcbe2f085f602038603d54796efcf354284))
+
+
+
+
+
 # 0.2.0 (2021-01-31)
 
 
