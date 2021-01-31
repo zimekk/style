@@ -28,7 +28,7 @@ export default () => {
         >
           {counter}
         </Button>
-        <Button>Button</Button>
+        <Button>Button2</Button>
       </nav>
     </section>
   );
