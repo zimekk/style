@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.2.0 (2021-01-31)
+
+
+### Features
+
+* **web:** add another Button ([6f8e793](https://github.com/zimekk/style/commit/6f8e793a8afd935b6bfa523867ce9a8d64863dd2))
+
+
+
+
+
 # 0.1.0 (2021-01-31)
 
 
