@@ -6,7 +6,7 @@ export const Button = ({
 }: {
   children: React.ReactNode;
 }) => (
-  <button style={{ color: "blue" }} {...props}>
+  <button style={{ color: "orange" }} {...props}>
     {children}
   </button>
 );
