@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/zimekk/style/compare/@dev/web@1.2.1...@dev/web@1.3.0) (2021-01-31)
+
+
+### Features
+
+* **web:** change Button ([d7b25f2](https://github.com/zimekk/style/commit/d7b25f2e1a7d53c8c581a51ab00bd1b8b40cf12b))
+
+
+
+
+
 ## [1.2.1](https://github.com/zimekk/style/compare/@dev/web@1.2.0...@dev/web@1.2.1) (2021-01-31)
 
 **Note:** Version bump only for package @dev/web
