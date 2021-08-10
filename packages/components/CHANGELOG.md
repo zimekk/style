@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/zimekk/style/compare/@zimekk/components@0.2.2...@zimekk/components@0.3.0) (2021-08-10)
+
+
+### Features
+
+* add MenuIcon ([73f5505](https://github.com/zimekk/style/commit/73f5505e6a2905905f927c9e058eebf339191201))
+
+
+
+
+
 ## [0.2.2](https://github.com/zimekk/style/compare/@zimekk/components@0.2.1...@zimekk/components@0.2.2) (2021-01-31)
 
 
