@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/zimekk/style/compare/@zimekk/components@0.3.0...@zimekk/components@0.3.1) (2021-08-10)
+
+
+### Bug Fixes
+
+* **components:** declaration.d.ts ([b24eadb](https://github.com/zimekk/style/commit/b24eadb439a2c6995204aa18b7b78cf4561d80b6))
+
+
+
+
+
 # [0.3.0](https://github.com/zimekk/style/compare/@zimekk/components@0.2.2...@zimekk/components@0.3.0) (2021-08-10)
 
 
