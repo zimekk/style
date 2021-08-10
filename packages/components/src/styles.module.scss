@@ -1,0 +1,88 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+.Content {
+  input ~ & {
+    display: none;
+  }
+  input:checked ~ & {
+    display: block;
+  }
+}
+
+.MenuIcon {
+  display: block;
+  position: relative;
+  opacity: 0.8;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+
+  input + & {
+    .BreadTop,
+    .BreadBottom {
+      transition: transform 0.1806s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+    .BreadTop {
+      .BreadCrust {
+        transform: translateY(-3px);
+      }
+    }
+    .BreadBottom {
+      .BreadCrust {
+        transform: translateY(3px);
+      }
+    }
+    .BreadCrust {
+      transition: transform 0.1596s cubic-bezier(0.52, 0.16, 0.52, 0.84) 0.1008s;
+    }
+  }
+
+  input:checked + & {
+    .BreadTop,
+    .BreadBottom {
+      transition: transform 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+    }
+    .BreadTop {
+      transform: rotate(45deg);
+    }
+    .BreadBottom {
+      transform: rotate(-45deg);
+    }
+    .BreadCrust {
+      transform: none;
+      transition: transform 0.1806s cubic-bezier(0.04, 0.04, 0.12, 0.96);
+    }
+  }
+
+  .BreadTop,
+  .BreadBottom {
+    position: absolute;
+    top: 9px;
+    left: 9px;
+    width: 30px;
+    height: 30px;
+  }
+  .BreadTop {
+    .BreadCrust {
+      top: 14px;
+    }
+  }
+  .BreadBottom {
+    .BreadCrust {
+      bottom: 14px;
+    }
+  }
+  .BreadCrust {
+    width: 17px;
+    height: 1px;
+    background: red;
+    border-radius: 0.5px;
+    position: absolute;
+    left: 7px;
+  }
+}

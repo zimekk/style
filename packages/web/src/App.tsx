@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import history from "history/browser";
-import { Button } from "@zimekk/components";
+import { Button, Menu } from "@zimekk/components";
 
 const getPage = (location: { hash: string }) => {
   const [path, hash = "/"] = decodeURI(location.hash).match(/^#(.+)/) || [];
@@ -29,6 +29,7 @@ export default () => {
           {counter}
         </Button>
         <Button>Button</Button>
+        <Menu>Menu</Menu>
       </nav>
     </section>
   );
