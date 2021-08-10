@@ -7,7 +7,8 @@ env.config({ path: path.resolve(__dirname, "../../.env") });
 
 const dev = process.env.NODE_ENV === "development";
 
-const config: webpack.Configuration = {
+const config = {
+  target: "web",
   devServer: {
     port: 8080,
   },

@@ -14,10 +14,15 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged",
+      "commit-msg": "commitlint --edit \"$1\""
     }
   },
-  "lint-staged": {},
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
   "scripts": {
     "clean": "rm -rf packages/*/public packages/*/lib",
     "build": "yarn workspaces run build",
@@ -27,18 +32,24 @@
     "bootstrap": "npx lerna bootstrap",
     "publish:ci": "lerna publish from-package --yes",
     "version:ci": "lerna version --yes --conventional-commits --create-release github --no-private --message 'chore(release): publish'",
-    "update": "yarn upgrade-interactive --latest"
+    "dedupe": "yarn-deduplicate",
+    "dedupe:list": "yarn-deduplicate --list",
+    "update": "yarn upgrade-interactive",
+    "update:latest": "yarn upgrade-interactive --latest"
   },
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
-    "commitizen": "^4.2.3",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.8",
-    "lerna": "^3.22.1",
-    "prettier": "^2.2.1",
-    "pretty-quick": "^3.1.0",
-    "type-coverage": "^2.14.9"
+    "lerna": "^4.0.0",
+    "prettier": "^2.3.2",
+    "pretty-quick": "^3.1.1",
+    "type-coverage": "^2.18.0",
+    "yarn-deduplicate": "^3.1.0"
   }
 }
